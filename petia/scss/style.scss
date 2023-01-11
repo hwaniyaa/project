@@ -320,8 +320,8 @@ header {
     width: 100%;
     height: 150px;
     color: #fff;
-    
-    
+    background-color: #a1a1a179;
+
 
     .top-menu01 {
       max-width: 1660px;
@@ -419,8 +419,8 @@ header {
       position: relative;
 
       .line.cate-on {
-        margin-left: 230px;
-        margin-top: -60px;
+        margin-left: 90px;
+        margin-top: -50px;
         z-index: 99;
         span {
           background-color: #191919;
@@ -434,7 +434,8 @@ header {
         }
       }
       .top-tab {
-        width: 50%;
+        outline: 1px solid red;
+        width: 170px;
         font-size: 14px;
         font-weight: 500;
         
@@ -448,7 +449,7 @@ header {
           .line {
             padding: 13px;
             position: absolute;
-            top: 5%; left: 6%;
+            top: 5%; right: 0;
           }
           span {
             display: block;
@@ -467,7 +468,7 @@ header {
       }//e: .top-tab
 
       .top-icon {
-        width: 50%;
+        width: 90%;
 
         ul {
           display: flex;
