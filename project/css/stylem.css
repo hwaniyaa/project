@@ -1,0 +1,417 @@
+@media (max-width: 9999px) {
+  .cate-bg {
+    display: none;
+  }
+}
+
+@media (max-width: 1339px) {
+  .top-bg .top-menu {
+    max-width: 1339px;
+  }
+  .main-bg .main-content .my-img02 .img02-txt {
+    margin-left: 30px;
+  }
+  .main-bg .main-content .my-img02 .img02-txt .txt2 P {
+    font-size: 25px;
+  }
+  .main-bg .main-content .my-img02 .typing {
+    font-size: 55px;
+  }
+  .main-bg .main-content .my-img02 b {
+    font-size: 25px;
+  }
+  .cate-bg {
+    display: none;
+  }
+}
+
+@media (max-width: 1010px) {
+  .top-bg .top-menu {
+    width: 1010px;
+    padding-left: 30px;
+  }
+  .main-bg .main-content .my-img02 .img02-txt .txt2 P,
+  .main-bg .main-content .my-img02 b {
+    font-size: 23px;
+  }
+  .main-bg .main-content .my-img02 .typing {
+    font-size: 40px;
+  }
+  .main-bg .main-content .my-img01 img {
+    width: 200px;
+  }
+  .main-bg .main-content .ain {
+    margin-top: 100%;
+  }
+  .about-bg .about-content {
+    width: 1010px;
+  }
+  .txt-line {
+    margin-left: 30px;
+  }
+  .about-bg .MBTI-bg .MBTI .my-img02 span {
+    width: 200px;
+    height: 200px;
+  }
+  .about-bg .MBTI-bg .MBTI .my-img02 P {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  .about-bg .MBTI-bg .MBTI .MBTI-title h3 {
+    font-size: 22px;
+  }
+  .title01 {
+    width: 100%;
+  }
+  .title03 {
+    width: 100%;
+  }
+  .txt1 {
+    font-size: 14px;
+  }
+  .about-bg .MBTI-bg .MBTI .MBTI-title .title03 li {
+    font-size: 14px;
+  }
+  .about-bg .MBTI-bg .MBTI {
+    width: 1010px;
+    margin-left: 15%;
+  }
+  .about-bg .MBTI-bg .MBTI .my-img02.mov2 {
+    display: none;
+  }
+  .portfolio .portfolio-content {
+    width: 1010px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .work-bg01 img {
+    width: 950px;
+    height: 550px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view1 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view2 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view3 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view4 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view5 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view6 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view7 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view8 h3 {
+    background-size: 155px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view8 .view-txt {
+    top: 100px;
+    left: -20px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view1 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view2 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view3 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view4 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view5 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view6 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view7 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view8 .view {
+    top: 500px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view3 .view-txt {
+    top: 100px;
+    right: -45px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view2 .view-txt {
+    top: 100px;
+    left: -40px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view1 .view-txt {
+    top: 80px;
+    left: -210px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view4 .view-txt {
+    top: 115px;
+    left: -45px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view7 .view-txt {
+    top: 115px;
+    left: -155px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view6 .view-txt {
+    top: 80px;
+    left: -75px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view5 .view-txt {
+    top: 70px;
+    right: -90px;
+  }
+  .contact-bg .contact-content {
+    width: 1010px;
+  }
+  .contact-bg .contact-content #contact-mail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact-bg .contact-content #contact-mail .maill-col {
+    width: 900px;
+  }
+  .contact-bg .contact-content #contact-mail .maill-col .maill-sub input,
+  .contact-bg .contact-content #contact-mail .maill-col .maill-sub textarea {
+    width: 100%;
+  }
+  .cate-bg {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio .portfolio-content .work_area ul li:nth-child(1) {
+    margin-top: 30px;
+  }
+  .portfolio {
+    height: 4900px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg {
+    margin: -100px 20px;
+  }
+  .top-bg .top-menu {
+    width: 768px;
+    position: relative;
+  }
+  .top-bg .top-menu .pic01 {
+    display: none;
+  }
+  .mov01.mov {
+    -webkit-transform: rotate(140deg);
+            transform: rotate(140deg);
+    position: absolute;
+  }
+  .mov02.mov {
+    -webkit-transform: rotate(-140deg);
+            transform: rotate(-140deg);
+  }
+  .cate-bg.mov {
+    display: block;
+  }
+  .cafe-main {
+    margin-top: 10px;
+    padding: 10px 30px;
+    margin-right: 100px;
+    cursor: pointer;
+  }
+  .top-bg .top-menu .cate span {
+    display: block;
+    width: 24px;
+    height: 5px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+  }
+  .cate-bg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #191919;
+    top: 90%;
+    left: 0;
+    z-index: 99;
+    display: none;
+  }
+  .top-bg .top-menu ul {
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+  }
+  .top-bg .top-menu ul li:not(:first-child) {
+    margin-left: auto;
+  }
+  .main-bg .main-content .my-img01 .my-img .icon03 {
+    display: none;
+  }
+  .main-bg .main-content .mid {
+    display: inline-block;
+  }
+  .main-bg .main-content .my-img02 {
+    width: 768px;
+    height: 100%;
+  }
+  .main-bg .main-content .my-img01 {
+    margin-top: auto;
+    width: 100%;
+  }
+  .main-bg .main-content .my-img01 .my-img {
+    margin-left: 300px;
+  }
+  .main-bg .main-content, .about-bg .about-content, .skill-bg .skill-content,
+  .portfolio .portfolio-content, .contact-bg .contact-content {
+    width: 768px;
+  }
+  .about-bg .MBTI-bg .MBTI {
+    margin-left: auto;
+    margin-left: 3%;
+  }
+  .skill-bg {
+    height: 2000px;
+  }
+  .skill-bg .skill-right {
+    text-align: center;
+  }
+  .skill-bg .skill-left ul {
+    display: block;
+  }
+  .skill-bg .skill-right .more {
+    margin-left: auto;
+  }
+  .skill-bg .skill-left li {
+    margin-bottom: 100px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .work-bg01 img {
+    width: 700px;
+    height: auto;
+  }
+  .contact-bg .contact-content #contact-mail .maill-col {
+    width: 650px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view1 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view2 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view3 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view4 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view5 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view6 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view7 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view8 .view {
+    top: 450px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view8 .view {
+    top: 470px;
+  }
+}
+
+@media (max-width: 625px) {
+  .portfolio .portfolio-content .work_area .work-bg {
+    margin: -100px -10px;
+  }
+  .top-bg .top-menu {
+    width: 625px;
+  }
+  .main-bg .main-content {
+    width: 625px;
+  }
+  .main-bg .main-content .my-img02 {
+    width: 625px;
+  }
+  .main-bg .main-content .my-img01 {
+    width: 625px;
+  }
+  .txt-line {
+    font-size: 40px;
+  }
+  .about-bg .about-content {
+    width: 625px;
+  }
+  .about-bg .MBTI-bg .MBTI .MBTI-title {
+    display: block;
+  }
+  .about-bg .MBTI-bg .MBTI .my-img02.mov2 {
+    display: none;
+  }
+  .about-bg {
+    height: 1300px;
+  }
+  .about-bg .MBTI-bg .MBTI {
+    margin-left: 8%;
+  }
+  .about-bg .MBTI-bg .MBTI .MBTI-title .item03.mov2,
+  .about-bg .MBTI-bg .MBTI .MBTI-title .item03-1.mov2 {
+    margin-right: 200px;
+  }
+  .skill-bg .skill-content {
+    width: 625px;
+  }
+  .portfolio .portfolio-content {
+    width: 590px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .work-bg01 img {
+    width: 600px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view1 .view-txt,
+  .portfolio .portfolio-content .work_area .work-bg .view2 .view-txt,
+  .portfolio .portfolio-content .work_area .work-bg .view3 .view-txt,
+  .portfolio .portfolio-content .work_area .work-bg .view4 .view-txt,
+  .portfolio .portfolio-content .work_area .work-bg .view5 .view-txt,
+  .portfolio .portfolio-content .work_area .work-bg .view6 .view-txt,
+  .portfolio .portfolio-content .work_area .work-bg .view7 .view-txt,
+  .portfolio .portfolio-content .work_area .work-bg .view8 .view-txt {
+    top: 40px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view1 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view2 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view3 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view4 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view5 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view6 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view7 h3,
+  .portfolio .portfolio-content .work_area .work-bg .view8 h3 {
+    background-size: 115px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .view1 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view2 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view3 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view4 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view5 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view6 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view7 .view,
+  .portfolio .portfolio-content .work_area .work-bg .view8 .view {
+    top: 380px;
+  }
+  .contact-bg .contact-content {
+    width: 625px;
+  }
+  .contact-bg .contact-content #contact-mail .maill-col {
+    width: 500px;
+  }
+  .contact-bg .contact-content #contact-mail .maill-col .maill-sub .send-txt {
+    font-size: 20px;
+  }
+  .about-bg .MBTI-bg .MBTI .MBTI-title {
+    height: 1000px;
+  }
+}
+
+@media (max-width: 556px) {
+  .top-bg .top-menu {
+    width: 556px;
+  }
+  .main-bg .main-content .my-img01 .my-img {
+    margin-right: 150px;
+  }
+  .about-bg .about-content, .skill-bg .skill-content,
+  .contact-bg .contact-content {
+    width: 556px;
+  }
+  .about-bg .MBTI-bg .MBTI .MBTI-title .item03.mov2, .about-bg .MBTI-bg .MBTI .MBTI-title .item03-1.mov2 {
+    margin-right: 250px;
+  }
+  .about-bg .MBTI-bg .MBTI .MBTI-title {
+    height: 1000px;
+  }
+  .portfolio .portfolio-content {
+    width: 520px;
+  }
+  .portfolio .portfolio-content .work_area .work-bg .work-bg01 img {
+    width: 530px;
+  }
+  .contact-bg .contact-content #contact-mail .maill-col {
+    width: 450px;
+  }
+  .contact-bg .contact-content #contact-mail .maill-col .maill-sub #send_btn {
+    width: 130px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 360px) {
+  .top-bg .top-menu, .main-bg .main-content, .about-bg .about-content,
+  .skill-bg .skill-content, .portfolio .portfolio-content,
+  .contact-bg .contact-content {
+    width: 360px;
+  }
+}
