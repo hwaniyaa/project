@@ -1,374 +1,125 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- favicon -->
-  <link rel="shortcut icon" href="img/bs_favicon.png">
-  <!-- css / reset -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/stylem.css">
-  <link rel="stylesheet" href="css/reset.css">
+  
   <!-- font -->
-  <link rel="stylesheet" href="css/font/font.css">
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- 플러그인 연결 -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-  <script src="js/jquery.scrollToGiveClass.js"></script>
-  <!-- js 호출 -->
-  <script src="js/script.js"></script>
-  <title>petia</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/main.css">
+  
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- swiper -->
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <script src="./js/swiper-bundle.min.js"></script>
+  <title>Expect better you</title>
 </head>
 <body>
-  <header>
-    <div class="top-bg">
-      <div class="top-menu01">
-        <div class="cate">
-          <h1>petia</h1>
-          <ul>
-            <li><a class="main-cate" href="#">ABOUT</a></li>
-            <li class="mouseover"><a class="main-cate" href="#">SHOP</a>
-              <div class="sub-cate">
-                <ul class="sub-cate-ul">
-                  <li><a href="#">NEW</a></li>
-                  <li><a href="#">BEST</a></li>
-                  <li><a href="#">FACE</a></li>
-                  <li><a href="#">LIP</a></li>
-                  <li><a href="#">EYE</a></li>
-                  <li><a href="#">SUN</a></li>
-                  <li><a href="#">OTHER</a></li>
-                  <li><a href="#">LOOK BOOK</a></li>
-                </ul>
-            </li>
-            <li class="mouseover"><a class="main-cate" href="#">ARTIST SERVICE</a>
-              <div class="sub-cate">
-                <ul class="sub-cate-ul">
-                  <li><a href="#">ONLINE CONSULTING</a></li>
-                  <li><a href="#">OFFLINE CONSULTING</a></li>
-                  <li><a href="#"> - TOUCHUP</a></li>
-                  <li><a href="#"> - EYEBROW BAR</a></li>
-                </ul>
-              </div> <!--// .sub-cate-->
-            </li>
-            <li class="mouseover"><a class="main-cate" href="#">&PLAY</a>
-              <div class="sub-cate">
-                <ul class="sub-cate-ul">
-                  <li><a href="#">POWDER&PLAY</a></li>
-                  <li><a href="#">GLITTER&PLAY</a></li>
-                </ul>
-              </div> <!--// .sub-cate-->
-            </li>
-            <li class="mouseover"><a class="main-cate05 main-cate" href="#">COMMUNITY</a>
-              <div class="sub-cate">
-                <ul class="sub-cate-ul">
-                  <li><a href="#">NOTICE</a></li>
-                  <li><a href="#">Q&A</a></li>
-                  <li><a href="#">EVENT</a></li>
-                  <li><a href="#">REVIEW</a></li>
-                  <li><a href="#">STORE</a></li>
-                </ul>
-              </div> <!--// .sub-cate-->
-            </li>
-          </ul>
-        </div> <!--// .cate-->
-        <div class="top-logo">
-          <a href="#">petia</a>
-        </div> <!--// .top-logo-->
-        <div class="top-txt">
-          <a href="#">로그인</a>
-          <a href="#">회원가입</a>
-        </div> <!--// .top-txt-->
-      </div> <!--// .top-menu-->
-      <div class="top-menu02">
-        <div class="top-tab">
-          <a class="menu-click" href="#">
-            <p>MENU</p>
-            <div class="line">
-              <span></span>
-              <span></span>
-            </div>
-          </a>
-        </div> <!--// .top-tab-->
-        <div class="top-icon">
-          <ul>
-            <li><a class="btn_sch" href="#"></a></li>
-            <li><a class="btn_bsk" href="#"></a></li>
-          </ul>
-        </div> <!--// .top-icon-->
-      </div> <!--// .top-menu02-->
-    </div> <!--// .top-bg-->
+  <header class="header-area">
+    <section class="header-box">
+      <div class="header-box--left item-inner">
+        <a href="#"><img src="./images/top-logo_img.png" alt=""></a>
+        <div class="login">
+          <span><a href="#">ログイン</a></span>
+          <span><a href="#">ログアップ</a></span>
+        </div>
+      </div>
+      <div class="header-box--right item-inner">
+        <p class="menu">menu
+          <span class="material-icons">
+            keyboard_arrow_right
+            </span>
+        </p>
+        <div class="icons">
+          <span><a href="#"><img src="./images/btn_sch.png" alt="サーチアイコン"></a></span>
+          <span><a href="#"><img src="./images/btn_bsk.png" alt="カートアイコン"></a></span>
+        </div>
+      </div>
+    </section>
   </header>
-  <main>
-    <div id="main-slide" class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div id="sub-slide01" class="swiper-slide">
-          <div class="slide-title">
-            <ul>
-              <li>쀼띠아 X KEY</li>
-              <li>PHOTO CARD PROMOTION</li>
-              <li>KEY 스페셜 포토카드 선착순 증정 + 30% OFF</li>
-            </ul>
-            <ul>
-              <li>30% OFF</li>
-              <li>GIFT</li>
-            </ul>
-          </div> <!--// #slide-title-->
-        </div> <!--// #sub-slide01-->
-        <div id="sub-slide02" class="swiper-slide">
-          <div class="slide-title">
-            <ul>
-              <li>NO.1 베스트 명가</li>
-              <li>페이스 메이크업 대전</li>
-              <li>MAX 50% 할인 혜택의 기회</li>
-            </ul>
-            <ul>
-              <li>~50% OFF</li>
-              <li>GIFT</li>
-            </ul>
-          </div> <!--// #slide-title-->
-        </div> <!--// #sub-slide02-->
-        <div id="sub-slide03" class="swiper-slide">
-          <div class="slide-title">
-            <ul>
-              <li>NEW컬러 출시</li>
-              <li>찐 데일리 팔레트, 리얼 아이 팔레트 </li>
-              <li>버릴 컬러 없는 풀메팔레트 30% 할인+레드뷰러 증정 </li>
-            </ul>
-            <ul>
-              <li>30% OFF</li>
-            </ul>
-          </div> <!--// #slide-title-->
-        </div> <!--// #sub-slide03-->
-        <div id="sub-slide04" class="swiper-slide">
-          <div class="slide-title">
-            <ul>
-              <li>NEW</li>
-              <li>48H 컴포트 벨벳매트, 비 벨벳 파운데이션</li>
-              <li>#비건파데 #컴포트매트 # 48H파워래스팅</li>
-            </ul>
-            <ul>
-              <li>30% OFF</li>
-            </ul>
-          </div> <!--// #slide-title-->
-        </div> <!--// #sub-slide04-->
-        <div id="sub-slide05" class="swiper-slide">
-          <div class="slide-title">
-            <ul>
-              <li>3월의 선물</li>
-              <li>공식몰 ONLY, SPECIAL GIFT </li>
-              <li>최대 12,000원 상당 정품 증정 혜택을 놓치지 마세요 </li>
-            </ul>
-            <ul>
-              <li>GIFT</li>
-            </ul>
-          </div> <!--// #slide-title-->
-        </div> <!--// #sub-slide05-->
-      </div>
-      <div class="main-slidebar"></div>
-    </div> <!--// #main-slide-->
-
-    <div id="item-01">
-      <div class="item-01-bg">
-        <ul>
-          <li><a href="#"><img src="img/item-01-1.jpg" alt="이미지1"></a>
-            <div class="item-01-1-title">
-              <span class="item01 item01-1-txt">BE VELVET</span>
-            </div> <!--// .item-01-1-title-->
-          </li>
-          <li><a href="#"><img src="img/item-01-2.jpg" alt="이미지2"></a>
-            <div class="item-01-1-title">
-              <span class="item02 item01-1-txt">PRO TAILOR</span>
-            </div> <!--// .item-01-1-title-->
-          </li>
-        </ul>
-      </div> <!--// .item-01-bg-->
-    </div> <!--// #item-01-->
-    <div id="item-02">
-      <div class="item-02-1">
-        <a class="item-02-1-bg-img" href="#"></a>
-        <div class="item-02-1-imgs">
-          <span><img src="img/item-02-2.jpg" alt="이미지2"></span>
-          <p class="hover-01 hover-m">BE VELVET LOOK</p>
-          <ul>
-            <li class="img-hover-01 hover-m"><a href="#"><img src="img/item-02-3.jpg" alt="이미지3"></a></li>
-            <li class="img-768 img-hover-01 hover-m"><a href="#"><img src="img/item-02-4.jpg" alt="이미지4"></a></li>
-          </ul>
-        </div> <!--// .item-02-1-imgs-->
-      </div> <!--// .item-02-1-->
-    </div> <!--// #item-02-->
-    <div id="item-03">
-      <div class="item-03-bg">
-        <div class="item-03-1-txt">
-          <span class="ro-hover1 hover-m">W</span>
-          <span class="ro-hover2 hover-m">A</span>
-          <span class="ro-hover3 hover-m">T</span>
-          <span class="ro-hover4 hover-m">E</span>
-          <span class="ro-hover5 hover-m">R</span>
-          <span>&nbsp;</span>
-          <span class="ro-hover6 hover-m">V</span>
-          <span class="ro-hover7 hover-m">E</span>
-          <span class="ro-hover8 hover-m">L</span>
-          <span class="ro-hover9 hover-m">V</span>
-          <span class="ro-hover10 hover-m">E</span>
-          <span class="ro-hover11 hover-m">T</span>
-          <span>&nbsp;</span>
-          <span class="ro-hover12 hover-m">L</span>
-          <span class="ro-hover13 hover-m">O</span>
-          <span class="ro-hover14 hover-m">O</span>
-          <span class="ro-hover15 hover-m">K</span>
-        </div> <!--// .item-03-1-txt-->
-        <ul>
-          <li><a href="#"><img src="img/item-03-1.jpg" alt="이미지1"></a></li>
-          <li class="img-hover-03 hover-m"><a href="#"><img src="img/item-03-2.jpg" alt="이미지2"></a></li>
-          <li><img src="img/item-03-3.jpg" alt="이미지3"></li>
-        </ul>
-        
-      </div> <!--// .item-03-bg-->
-    </div> <!--// #item-03-->
-    <div id="item-04">
-      <div class="item-02-1">
-        <a class="item-02-1-bg-img" href="#"></a>
-        <div class="item-02-1-imgs">
-          <span><img src="img/item-04-2.jpg" alt="이미지2"></span>
-          <p class="hover-01 hover-m">PEACH BASE LOOK</p>
-          <ul>
-            <li class="img-hover-01 hover-m"><a href="#"><img src="img/item-04-3.jpg" alt="이미지3"></a></li>
-            <li class="img-768 img-hover-01 hover-m"><a href="#"><img src="img/item-04-4.jpg" alt="이미지4"></a></li>
-          </ul>
-        </div> <!--// .item-02-1-imgs-->
-        
-        </div> <!--// .ain-txt-->
-        <div class="ain-txt">
-          <span><a href="#">VIEW MORE ></a></span>
-          <span>
-            <MARQUEE behavior="scroll">
-              <b>
-                <img class="img-mov01 hover-m" src="img/EXPECT.png" alt="EXPECT">
-                <b class="img-mov02 hover-m">BETTER YOU</b>
-
-                <img class="img-mov01 hover-m" src="img/EXPECT.png" alt="EXPECT">
-                <b class="img-mov02 hover-m">BETTER YOU</b>
-              </b>
-              </MARQUEE> 
-              
-          </span> 
-      </div> <!--// .item-02-1-->
-    </div> <!--// #item-04-->
-    <div id="slide-sub">
-      <div class="slide-sub-title">
-        <p>LIVE & MORE</p>
-        <p>2022 화려한 연말 메이크업</p>
-        <p>2022년, 블링블링 글리터 아이돌 메이크업로 가장 화려한 연말 보내세요<br>
-          HAPPY NEW YEAR!!</p>
-      </div> <!--// .slide-sub-title-->
-      <div id="slide-02" class="swiper mySwiper">
-        <div id="slide-02-area" class="swiper-wrapper">
-          <div id="slide-02-sub-01" class="swiper-slide sub-02"></div>
-          <div id="slide-02-sub-02" class="swiper-slide sub-02"></div>
-          <div id="slide-02-sub-03" class="swiper-slide sub-02"></div>
-          <div id="slide-02-sub-04" class="swiper-slide sub-02"></div>
-          <div id="slide-02-sub-05" class="swiper-slide sub-02"></div>
-          <div id="slide-02-sub-06" class="swiper-slide sub-02"></div>
-          <div id="slide-02-sub-07" class="swiper-slide sub-02"></div>
-          <div id="slide-02-sub-08" class="swiper-slide sub-02"></div>
-          <div id="slide-02-sub-09" class="swiper-slide sub-02"></div>
-        </div>
-      </div>
-      <div class="sub-slide-bar02"></div>
-    </div> <!--// #slide-sub-->
-    <div id="slide-sub02">
-      <div class="slide-sub02-txt">
-        <span>HOT TOK</span>
-      </div> <!--// .slide-sub02-txt-->
-      <div id="slide-03" class="swiper mySwiper">
+  <main class="main-area">
+    <section class="main-box">
+      <div id="main-swiper" class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div id="slide-03-sub-01" style="width: 828px;" class="swiper-slide sub-03"></div>
-          <div id="slide-03-sub-02" style="width: 828px;" class="swiper-slide sub-03"></div>
-          <div id="slide-03-sub-03" style="width: 828px;" class="swiper-slide sub-03"></div>
-          <div id="slide-03-sub-04" style="width: 828px;" class="swiper-slide sub-03"></div>
-          <div id="slide-03-sub-05" style="width: 828px;" class="swiper-slide sub-03"></div>
-          <div id="slide-03-sub-06" style="width: 828px;" class="swiper-slide sub-03"></div>
-          <div id="slide-03-sub-07" style="width: 828px;" class="swiper-slide sub-03"></div>
-          <div id="slide-03-sub-08" style="width: 828px;" class="swiper-slide sub-03"></div>
-          <div id="slide-03-sub-09" style="width: 828px;" class="swiper-slide sub-03"></div>
+          <div class="swiper-slide">
+              <a href="#"><img src="./images/main-Slider-img/main-Slider-img01.jpg" alt="NEW">
+                <div class="slide-items-txt item-inner">
+                  <p class="slide-txt01">NEW</p>
+                  <p class="slide-txt02 letter2">ザ·スリック&nbsp;&nbsp; リップスティック&nbsp;&nbsp; <br/>クリームマット</p>
+                  <p class="slide-txt03 letter1">リップクリームのフレームを外れる 驚くほどなめらかなクリームマットテクスチャー</p>
+                </div>
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="#"><img src="./images/main-Slider-img/main-Slider-img02.jpg" alt="No.1 ベース名家">
+                <div class="slide-items-txt item-inner">
+                  <p class="slide-txt01">No.1 ベース名家</p>
+                  <p class="slide-txt02 letter2">公式モールブランドウィーク <br/>#&nbsp;G&nbsp;I&nbsp;T&nbsp;&nbsp;プレゼント</p>
+                  <p class="slide-txt03 letter1">最大50%割引特典と公式モール単独ギフトをお見逃しなく!</p>
+                </div>
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="#"><img src="./images/main-Slider-img/main-Slider-img03.jpg" alt="BEST">
+                <div class="slide-items-txt item-inner">
+                  <p class="slide-txt01">BEST</p>
+                  <p class="slide-txt02 letter2">リアル &nbsp;&nbsp;アイ &nbsp;&nbsp;パレット&nbsp;&nbsp; オートミルク<br/>エディション</p>
+                  <p class="slide-txt03 letter1">ソフト トーン カラー組合せ デイリーパレット</p>
+                </div>
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="#"><img src="./images/main-Slider-img/main-Slider-img04.jpg" alt="HOT">
+                <div class="slide-items-txt item-inner">
+                  <p class="slide-txt01">HOT</p>
+                  <p class="slide-txt02 letter2">クチュール&nbsp;&nbsp; リップ &nbsp;&nbsp;ティント&nbsp;&nbsp; <br/>ベルベット&シャイン&nbsp;&nbsp; 1+1</p>
+                  <p class="slide-txt03 letter1">一つ買ったらもう一つ！ エスパー Best Lip 1+1</p>
+                </div>
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="#"><img src="./images/main-Slider-img/main-Slider-img05.jpg" alt="NEW">
+                <div class="slide-items-txt item-inner">
+                  <p class="slide-txt01">NEW</p>
+                  <p class="slide-txt02 letter2">ビーグローファンデーション<br/>ニュークラス</p>
+                  <p class="slide-txt03 letter1">24H ハリのある明るいグローファンデーション</p>
+                </div>
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="#"><img src="./images/main-Slider-img/main-Slider-img06.jpg" alt="January">
+                <div class="slide-items-txt item-inner">
+                  <p class="slide-txt01">January</p>
+                  <p class="slide-txt02 letter2">espoir&nbsp;&nbsp; BENEFIT&nbsp;&nbsp; LOUNGE</p>
+                  <p class="slide-txt03 letter1">エスパー公式モールだけの特別な特典</p>
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="swiper-pagination">
         </div>
       </div>
-      <div class="sub-slide-bar03"></div>
-    </div> <!--// #slide-sub02-->
+    </section>
   </main>
-  <footer> 
-    <div class="footer-bg">
-      <div class="footer-main">
-        <ul>
-          <li><a href="#">비회원주문조회</a></li>
-          <li><a href="#">매장 찾기</a></li>
-          <li><a href="#">브랜드 소개</a></li>
-          <li><a href="#">멤버십</a></li>
-          <li><a href="#">사이트맵</a></li>
-        </ul>
-        <ul>
-          <li>MAKEUP</li>
-          <li><span>B E A U T Y &nbsp; C O U N S E L I N G</span></li>
-          <li>
-            언제 어디서든 언택트!<br>
-            아티스트와 상담하세요!
-          </li>
-        </ul>
-        <ul>
-          <li>고객센터</li>
-          <li>080 1234 5678</li>
-          <li>상담시간 13:00 ~ 17:00<br>
-            (월~금, 공휴일 제)</li>
-        </ul>
-        <ul>
-          <li>
-            <ul class="icon">
-              <li><a class="insta" href="#"></a></li>
-              <li><a class="facebook" href="#"></a></li>
-              <li><a class="twitter" href="#"></a></li>
-              <li><a class="kakao" href="#"></a></li>
-              <li><a class="blog" href="#"></a></li>
-              <li><a class="mail" href="#"></a></li>
-            </ul>
-          </li>
-          <li>
-            <ul class="txt">
-              <li><a href="#">로그인</a></li>
-              <li><a href="#">회원가입</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div> <!--// .footer-main-->
-      <div class="footer-sub">
-        <ul>
-          <li>서비스 이용약관</li>
-          <li>개인정보처리방침</li>
-          <li>영상기기 관리방침</li>
-          <li>사업자 정보 확인</li>
-          <li>이메일 무단수집 거부</li>
-          <li>전자공고</li>
-        </ul>
-        <ul>
-          <li>
-            (주)쀼띠아 대표이사: 김길환 &nbsp;&nbsp;&nbsp; 본사 : 전주시 덕진구 도당산 1층<br>
-            사업자번호: 152-1234-45678 &nbsp;&nbsp;&nbsp; 통신판매업신고번호 : 제 2022-전주덕진-1234호 &nbsp;&nbsp;&nbsp; <b>사업자 정보 확인</b><br>
-            개인정보보호책임자: 김길환 &nbsp;&nbsp;&nbsp; 고객상담: <b>080-123-4567</b> &nbsp;&nbsp;&nbsp; 이메일: rlfghks12q@naver.com &nbsp;&nbsp;&nbsp; 호스팅제공자 : ㈜쀼띠아<br>
-            고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 이니시스 구매안전 서비스(에스크로)를 이용하실 수 있습니다. <b>서비스 가입사실 확인</b> 
-          </li>
-        </ul>
-        <ul>
-          <li>
-            Copyright &copy; 2021 espoir. All Rights Reserved.
-          </li>
-        </ul>
-      </div> <!--// .footer-sub-->
-    </div> <!--// .footer-bg-->
-  </footer>
-
-
-
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper("#main-swiper", {
+      slidesPerView: "auto",
+      loop:true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+  </script>
 </body>
 </html>

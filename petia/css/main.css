@@ -1,0 +1,29 @@
+.main-area .main-box #main-swiper .swiper-wrapper .swiper-slide {
+  font-family: "Roboto", "Noto Sans JP", sans-serif;
+}
+.main-area .main-box #main-swiper .swiper-wrapper .swiper-slide a {
+  position: relative;
+}
+.main-area .main-box #main-swiper .swiper-wrapper .swiper-slide a img {
+  width: 100vw;
+  box-sizing: border-box;
+}
+.main-area .main-box #main-swiper .swiper-wrapper .swiper-slide a .slide-items-txt {
+  position: absolute;
+  bottom: 200px;
+  left: 0;
+}
+.main-area .main-box #main-swiper .swiper-wrapper .swiper-slide a .slide-items-txt .slide-txt01 {
+  font-size: 24px;
+  font-weight: 300;
+}
+.main-area .main-box #main-swiper .swiper-wrapper .swiper-slide a .slide-items-txt .slide-txt02 {
+  font-size: 58px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.main-area .main-box #main-swiper .swiper-wrapper .swiper-slide a .slide-items-txt .slide-txt03 {
+  font-size: 18px;
+  margin-top: 25px;
+  font-weight: 300;
+}

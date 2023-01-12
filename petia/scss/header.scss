@@ -1,0 +1,47 @@
+
+
+.header-box {
+  position: fixed;
+  top: 0; left: 0;
+  z-index: 99;
+  width: 100%;
+  margin-top: 28px;
+
+  .header-box--left {
+    display: flex;
+    justify-content: space-between;
+    .login {
+      font-size: 12px;
+      span {
+        a {
+          padding: 0 10px;
+        }
+      }
+    }//.login
+  }//header-box--left
+  .header-box--right {
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+      letter-spacing: -1px;
+      line-height: 90px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      .material-icons {
+        margin-left: -5px;
+      }
+    }
+    .icons {
+      margin-top: -10px;
+      span {
+        a {
+          padding: 0 17px;
+        }
+      }
+    }//icons
+  }//header-box--right
+}//.header-box
